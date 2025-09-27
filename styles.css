@@ -97,8 +97,14 @@ nav .logo img {
   font-size: 2rem;   
   color: white;      
   line-height: 1;
+  padding: 0 10PX;
+  background-color: #8893c7;
+  border-radius: 5px;
   }
-
+  
+.hamburger:hover .close {
+  background: rgb(53, 41, 97);
+}
 .nav-links {
   list-style: none;
   display: flex;

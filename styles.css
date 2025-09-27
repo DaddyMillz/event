@@ -1,4 +1,3 @@
-/* ====== RESET ====== */
 * {
   margin: 0;
   padding: 0;
@@ -20,13 +19,26 @@ header {
   background-color:  #25348b;
 }
 
+/* logo */
+.logo {
+  display: flex;
+  align-items: center; /* vertically center */
+  gap: 10px; /* space between logo and text */
+}
+
+.logo img {
+  max-height: 50px; /* adjust logo size */
+  width: auto;  /* keep proportions */
+  display: block;
+  border-radius: 10px;
+}
 
 .logo h1 {
-  font-size: 2.5rem;   /* adjust size */
-  color: white;        /* or your brand color */
+  font-size: 2rem;  
+  color: white;       
   font-weight: bold;
   letter-spacing: 1px;
-  margin-bottom: 0%;
+  margin: 0%;
 }
 
 .logo h3{
@@ -81,7 +93,11 @@ nav .logo img {
   background: #8893c7;
 }
 
-  .hamburger .close {display: none;}
+  .hamburger .close {display: none;
+  font-size: 2rem;   
+  color: white;      
+  line-height: 1;
+  }
 
 .nav-links {
   list-style: none;
@@ -195,7 +211,7 @@ nav .logo img {
   height: 250px;
 
   object-fit: cover;  /* makes it nicely cropped instead of stretched */
-  border-radius: 12px; /* optional: matches card corners */
+  border-radius: 12px; 
 }
 
 
@@ -284,6 +300,11 @@ nav .logo img {
   color: #8893c7;
 }
 
+.social-media img {
+  height: 30px;
+  width: 30px;
+}
+
 /* ====== FOOTER ====== */
 footer {
   text-align: center;
@@ -314,8 +335,14 @@ footer {
     gap: 1rem;
     text-align: center;
   }
+
+  .logo img {
+  max-height: 40px; /* adjust logo size */
+  width: auto;  /* keep proportions */
+  display: block;
+}
   .logo h1 {
-  font-size: 1.7rem;}
+  font-size: 1.5rem;}
 
   .hero h1 {
   font-size: 1.3rem;

@@ -148,6 +148,8 @@ nav .logo img {
   margin-bottom: 1rem;
 }
 
+
+
 .hero p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
@@ -165,6 +167,15 @@ nav .logo img {
 .hero-btn:hover {
   background: #434e88;
 }
+
+ul {
+  list-style-position: outside; 
+  text-align: left; 
+  padding-left: 1.5rem;
+   display: table;
+   margin: 0 auto;
+}
+
 
 /* ====== SERVICE SECTIONS ====== */
 .service-section {
@@ -348,14 +359,25 @@ footer {
   display: block;
 }
   .logo h1 {
-  font-size: 1.5rem;}
-
-  .hero h1 {
+  font-size: 1.5rem;
   font-size: 1.3rem;
+  margin-bottom: 0%;
 
 }
 
+.hero h1{
+  margin-bottom: 0;
+  border: 0;
+  padding-bottom: 0;
+}
+.hero h3{
+  font-size: 17px;
+}
  
+.hero p{
+  font-size: 15px;
+}
+
  #menu-toggle:checked ~ .nav-links {display: flex;}
    #menu-toggle:checked ~ .hamburger .open {
     display: none;
@@ -377,6 +399,11 @@ footer {
   .catalogue-item {
     width: 100%;
     max-width: 90%;
+  }
+
+   ul {
+    padding-left: 1rem;          /* less padding on small devices */
+    font-size: 0.95rem;          /* slightly smaller text */
   }
 }
 

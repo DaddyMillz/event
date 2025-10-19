@@ -27,13 +27,13 @@ header {
 /* logo */
 .logo {
   display: flex;
-  align-items: center; /* vertically center */
-  gap: 10px; /* space between logo and text */
+  align-items: center;
+  gap: 10px; 
 }
 
 .logo img {
-  max-height: 50px; /* adjust logo size */
-  width: auto; /* keep proportions */
+  max-height: 50px;
+  width: auto; 
   display: block;
   border-radius: 10px;
 }
@@ -71,7 +71,7 @@ nav .logo img {
 }
 
 .hamburger {
-  display: none; /* hidden on desktop */
+  display: none; 
   flex-direction: column;
   justify-content: space-between;
   width: 30px;
@@ -204,24 +204,24 @@ main h2 {
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   display: flex;
-  align-items: center; /* centers image vertically */
-  justify-content: center; /* centers image horizontally */
+  align-items: center; 
+  justify-content: center; 
   background: #fff;
 }
 
 .slides {
   display: flex;
-  width: 300%;
+  width: 200%;
   animation: slide 30s infinite;
-  align-items: center; /* centers all images vertically */
+  align-items: center; 
 }
 
 .slides img {
   width: 100%;
-  height: 100%; /* match carousel height */
+  height: 100%; 
   object-fit: contain;
   background: #fff;
-  object-position: center; /* prevents stretching */
+  object-position: center; 
   flex-shrink: 0;
   border-radius: 12px;
 }
@@ -233,7 +233,7 @@ main h2 {
 
   height: 250px;
 
-  object-fit: cover; /* makes it nicely cropped instead of stretched */
+  object-fit: cover; 
   border-radius: 12px;
 }
 
@@ -370,8 +370,8 @@ footer {
   }
 
   .logo img {
-    max-height: 40px; /* adjust logo size */
-    width: auto; /* keep proportions */
+    max-height: 40px; 
+    width: auto; 
     display: block;
   }
   .logo h1 {
@@ -419,8 +419,8 @@ footer {
   }
 
   ul {
-    padding-left: 1rem; /* less padding on small devices */
-    font-size: 0.95rem; /* slightly smaller text */
+    padding-left: 1rem; 
+    font-size: 0.95rem; 
   }
 }
 
@@ -443,6 +443,10 @@ footer {
 .for-sale-corner:hover {
   transform: translateY(-3px);
   background: rgb(29, 44, 122);
+}
+
+.for-sale-corner p{
+  font-size: 10px;
 }
 
 .for-sale-corner span {

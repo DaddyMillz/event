@@ -1,4 +1,4 @@
-# Kathie Event World 🌸
+# D&Dees Event World 🌸
 
 Kathie Event World is a professional event planning and decoration website.  
 The site showcases services, event catalogues, and ways for clients to connect with us.  
